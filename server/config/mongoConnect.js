@@ -1,6 +1,6 @@
 const { MongoClient } = require("mongodb");
 // Connection URL
-const url = process.env.MONGODB_URI;
+const url = "mongodb+srv://halofarhan:farhan17@learn-mongodb.h6rom.mongodb.net/?retryWrites=true&w=majority&appName=Learn-MongoDB";
 const client = new MongoClient(url);
 
 const dbName = "db_gc1_p3";
